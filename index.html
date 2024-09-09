@@ -1,41 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> <!-- Define o tipo de documento como HTML5 e especifica que o idioma é português do Brasil -->
 <head>
-    <meta charset="UTF-8">
-    <title>Parallelo</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <title>Parallelo</title> <!-- Define o título da página que aparecerá na aba do navegador -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Linka o arquivo CSS externo para estilizar a página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div id="logo">
-                <a href="index.html">
-                <img src="img\logo-white.png"></a>
+    <header> <!-- Seção de cabeçalho do site -->
+        <nav> <!-- Seção de navegação -->
+            <div id="logo"> <!-- Div para o logo do site -->
+                <a href="index.html"> <!-- Link que leva à página inicial -->
+                <img src="img\logo-white.png"> <!-- Imagem do logo -->
+                </a>
             </div>
-            <div id="menu principal">
-            <ul>
-                <li><span>01.</span><a href="index.html">HOME</a></li>
-                <li><span>02.</span><a href="trabalhos.html">TRABALHOS</a></li>
-                <li><span>03.</span><a href="#">SCANEAMENTO</a></li>
-                <li><span>04.</span><a href="#">SOBRE</a></li>
-                <li><span>05.</span><a href="#">LANÇAMENTOS</a></li>
-                <li><span>06.</span><a href="#">CONTATO</a></li>
+            <div id="menu principal"> <!-- Div para o menu principal -->
+            <ul> <!-- Lista não ordenada para os itens do menu -->
+                <li><span>01.</span><a href="index.html">HOME</a></li> <!-- Primeiro item do menu com link para a página inicial -->
+                <li><span>02.</span><a href="trabalhos.html">TRABALHOS</a></li> <!-- Link para a página de trabalhos -->
+                <li><span>03.</span><a href="#">SCANEAMENTO</a></li> <!-- Link genérico ainda não definido -->
+                <li><span>04.</span><a href="#">SOBRE</a></li> <!-- Link genérico para a página "Sobre" -->
+                <li><span>05.</span><a href="#">LANÇAMENTOS</a></li> <!-- Link genérico para lançamentos -->
+                <li><span>06.</span><a href="#">CONTATO</a></li> <!-- Link genérico para contato -->
             </ul>
         </div>
         </nav>
     </header>
-    <section class="rule">
-        <div class="icons">
-        <div class="icon"><img src="img\i.pencup.png"></div>
-        <div class="icon"><img src="img\i.square.png"></div>
-        <div class="icon"><img src="img\i.pensquare.png"></div>
+    <section class="rule"> <!-- Seção com classe "rule", usada para separar visualmente conteúdo -->
+        <div class="icons"> <!-- Div para os ícones -->
+        <div class="icon"><img src="img\i.pencup.png"></div> <!-- Primeiro ícone -->
+        <div class="icon"><img src="img\i.square.png"></div> <!-- Segundo ícone -->
+        <div class="icon"><img src="img\i.pensquare.png"></div> <!-- Terceiro ícone -->
         </div>
-        <div class="txt">
-            <h6>"A arquitetura é a arte que determina a identidade do nosso tempo e melhora a vida das pessoas"<i>Santiago Calatrava</i></h6>
+        <div class="txt"> <!-- Div para o texto centralizado -->
+            <h6>"A arquitetura é a arte que determina a identidade do nosso tempo e melhora a vida das pessoas"<i>Santiago Calatrava</i></h6> <!-- Citação de Santiago Calatrava com itálico -->
         </div>
     </section>
-    <section>
-        <section class="trabalhos"></section>
+    <section> <!-- Outra seção para conteúdo -->
+        <section class="trabalhos"><!-- Seção com classe "trabalhos"-->
+            <div class="cabecalho">
+                <h4>
+                    <span>
+                        <i>nossos</i>
+                    </span>
+                    <br>
+                    <b>
+                        <i>projetos</i>
+                    </b>
+                </h4>
+                <div class="wave">
+                <img src="img\black-wave.png">
+                </div>
+                <p>
+                    <i>Concebemos ideias e concretizamos sonhos.</i>
+                </p>
+            </div>
+            <div class="mosaico">
+            
+                <div class="item">
+                    <div class="plus">
+                        <img src="img\plus.png">
+                    </div>
+                </div> 
+            </div>
+            <div class="botao">
+            </div>
+        </section>
     </section>
 </body>
 </html>

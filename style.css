@@ -1,106 +1,231 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
 }
 header {
-    background-image: url(../img/slidebg1.jpg); /* Certifique-se de que o caminho da imagem esteja correto */
-    background-repeat: no-repeat; /* Para não repetir a imagem */
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 720px;
-    padding-top: 15px;
+    background-image: url(../img/slidebg1.jpg); /* Aplica uma imagem de fundo ao header */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz a imagem cobrir todo o espaço do header */
+    background-position: center; /* Centraliza a imagem de fundo */
+    width: 100%; /* O header ocupará 100% da largura da página */
+    height: 720px; /* Define a altura do header */
+    padding-top: 15px; /* Adiciona um espaçamento superior ao header */
 }  
 nav {
-    background-color: black;
-    max-width: 1400px; /* Mantém o limite de largura */
-    width: 100%;
-    height: 125px;
-    display: flex;
-    justify-content: space-between; /* Espaça os itens do logo e do menu */
+    background-color: black; /* Define o fundo do menu de navegação como preto */
+    max-width: 1400px; /* Limita a largura máxima do nav a 1400px */
+    width: 100%; /* O nav ocupa 100% da largura */
+    height: 125px; /* Define a altura do nav */
+    display: flex; /* Define o layout do nav como flexível */
+    justify-content: space-between; /* Espaça os itens do logo e do menu de maneira uniforme */
     align-items: center; /* Centraliza os itens verticalmente */
-    padding: 0 30px; /* Espaçamento interno nas laterais */
-    box-sizing: border-box; /* Inclui o padding no tamanho total */
-    margin: 0 auto; /* Centraliza o nav na página */
+    padding: 0 30px; /* Adiciona um padding de 30px nas laterais */
+    box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total do elemento */
+    margin: 0 auto; /* Centraliza o nav horizontalmente */
 }
 nav #logo {
-    display: flex;
-    align-items: center;
+    display: flex; /* Exibe o conteúdo do logo como flexbox */
+    align-items: center; /* Centraliza o logo verticalmente */
 }
 nav #logo img {
-    height: 75px;
+    height: 75px; /* Define a altura do logo */
 }
 nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    display: flex; /* Exibe a lista de itens do menu como flexbox */
+    margin: 0; /* Remove a margem padrão da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    list-style: none; /* Remove as bolinhas da lista */
 }
 nav ul li {
-    color: aliceblue;
-    font-size: 16px;
-    font-family: Montserrat, sans-serif; /* Fonte da letra */
-    text-align: center;
-    transition: 1s;
-    margin-left: 20px; /* Espaçamento entre os itens do menu */
+    color: aliceblue; /* Define a cor do texto dos itens do menu */
+    font-size: 16px; /* Define o tamanho da fonte dos itens do menu */
+    font-family: Montserrat, sans-serif; /* Define a fonte dos itens do menu */
+    text-align: center; /* Alinha o texto dos itens do menu ao centro */
+    transition: 1s; /* Adiciona uma transição de 1 segundo para alterações no item do menu */
+    margin-left: 20px; /* Adiciona um espaço à esquerda de cada item */
 }
 nav ul li a {
-    text-decoration: line-through; /* Linha no meio da palavra */
-    padding: 55px 20px; /* Espaçamento em torno dos links */
-    color: white;
-    font-size: 14px;
-    text-transform: uppercase; /* Deixa todo o texto maiúsculo, mesmo que esteja minúsculo */
-    transition: 1s;
+    text-decoration: line-through; /* Adiciona uma linha sobre o texto dos links */
+    padding: 55px 20px; /* Adiciona um padding ao redor dos links */
+    color: white; /* Define a cor do texto dos links como branco */
+    font-size: 14px; /* Define o tamanho da fonte dos links */
+    text-transform: uppercase; /* Transforma o texto dos links em maiúsculas */
+    transition: 1s; /* Adiciona uma transição suave para as alterações no link */
 }
 nav ul li a:hover {
-    color: rgb(231, 169, 32); /* Cor ao passar o mouse */
-    text-decoration: line-through; /* Linha no meio da palavra */
+    color: rgb(231, 169, 32); /* Altera a cor do link ao passar o mouse */
+    text-decoration: line-through; /* Mantém a linha sobre o texto */
 }
 .rule{
-    background-image: url(../img/divider-dark.png);
-    background-repeat: repeat-x; /* Repete só no eixo x */
-    padding-top: 100px;
+    background-image: url(../img/divider-dark.png); /* Aplica uma imagem de fundo à seção "rule" */
+    background-repeat: repeat-x; /* Repete a imagem apenas no eixo X */
+    padding-top: 100px; /* Adiciona um espaçamento superior */
 }
 section {
-    width: 100%;
-    height: 500px;
+    width: 100%; /* Define que as seções ocupam 100% da largura da página */
+    height: 500px; /* Define a altura das seções */
 }
-/* ------------------Trabalhos---------------- */
-#trabalhos {
-    background-color: blue;
-}
-section{
-    background-color: #ffffff;
+section {
+    background-color: #ffffff; /* Define o fundo das seções como branco */
 }
 .icons{
-    height: 120px;
-    width: 345px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+    height: 120px; /* Define a altura da div com ícones */
+    width: 345px; /* Define a largura da div com ícones */
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    display: flex; /* Define o layout da div como flexbox */
+    flex-direction: row; /* Organiza os ícones em uma linha */
 }
 .icons .icon img{
-    width: 115px;
+    width: 115px; /* Define a largura das imagens dentro dos ícones */
 }
 .txt{
-    background-color: white;
-    height: 100px;
-    width: 100%;
+    background-color: white; /* Define o fundo da div com texto como branco */
+    height: 100px; /* Define a altura da div com texto */
+    width: 100%; /* Define a largura da div com texto */
 }
-/*sem internet*/
 .txt{
-    width: 850px;
-    margin: 0 auto;
+    width: 850px; /* Define a largura máxima da div com texto */
+    margin: 0 auto; /* Centraliza a div com texto horizontalmente */
 }
 .txt h6{
-    font-size: 28px;
-    font-weight: 300;
-    width: 80%;
-    display: inline-block;
-    line-height: 40px;
-    font-family: 'Roboto Slab', serif;/*carregar fonte do google fontes*/
-    text-align: center;
-    margin: 0;
-    margin-left: 95px;
-    margin-top: 40px;
+    font-size: 28px; /* Define o tamanho da fonte do texto */
+    font-weight: 300; /* Define o peso da fonte como mais leve */
+    width: 80%; /* Define a largura do texto como 80% da largura da div */
+    display: inline-block; /* Exibe o texto como um bloco em linha */
+    line-height: 40px; /* Define a altura das linhas do texto */
+    font-family: 'Roboto Slab', serif; /* Define a fonte como 'Roboto Slab' */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove margens internas do texto */
+    margin-left: 95px; /* Adiciona uma margem à esquerda do texto */
+    margin-top: 40px; /* Adiciona uma margem superior ao texto */
 }
+.trabalhos{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin-top: -160px;
+}
+.cabecalho{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.trabalhos .cabecalho h4 span{
+    color: #e7a920;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wave{
+    margin-top:-10px;
+}
+.trabalhos .cabecalho b{
+    background: url(../images/black-wave.png) no-repeat center 108px;
+    padding: 0 0 18px 0;
+    margin: -14px 0 0 0;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+    text-transform: uppercase;
+    color: #000;
+}
+.trabalhos .cabecalho p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 12px 0 0 0;
+    display: inline-block;
+    text-align: center;
+    margin-top:10px;
+}
+.trabalhos .mosaico{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.trabalhos .mosaico .item{
+    height: 470px;
+    width: 570px;
+    background-image: url(../img/project-1.jpg); 
+    background-size: 100%; /* Inicialmente, a imagem está em 100% */
+    background-position: center;
+    transition: background-size 5s ease-in-out; /* Adiciona uma transição suave de 1 segundo */
+    margin-top: 55px;
+}
+.trabalhos .mosaico .item:hover {
+    background-size: 110%; /* Aumenta o tamanho da imagem ao passar o mouse */
+    background-position: center;
+}
+
+/* ------------------Trabalhos---------------- */
+#trabalhos {
+    background-color: blue; /* Define o fundo da seção "trabalhos"*/
+}
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
