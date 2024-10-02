@@ -1,69 +1,69 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #6a9bd3;
+    font-family: 'Montserrat', sans-serif; /* Define a fonte do corpo como Montserrat, com uma fonte de reserva sans-serif */
+    background-color: #6a9bd3; /* Define a cor de fundo como um tom de azul */
 }
 
 .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 460px;
-    padding: 50px;
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.11);
-    margin: 0 auto;
-    background-color: rgba(240, 248, 255, 0.062);
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: 400px; /* Largura fixa da caixa */
+    height: 460px; /* Altura fixa da caixa */
+    padding: 50px; /* Espaçamento interno da caixa */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+    border: 1px solid rgba(255, 255, 255, 0.11); /* Define uma borda sutil com transparência */
+    margin: 0 auto; /* Centraliza a caixa horizontalmente na página */
+    background-color: rgba(240, 248, 255, 0.062); /* Define uma cor de fundo com transparência */
 }
 
 h1 {
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 95px;
+    color: #ffffff; /* Define a cor do título como branco */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 95px; /* Espaçamento abaixo do título */
 }
 
 h2 {
-    color: #ffffff;
-    text-align: center;
-    margin-top: 95px;
+    color: #ffffff; /* Define a cor do subtítulo como branco */
+    text-align: center; /* Centraliza o subtítulo */
+    margin-top: 95px; /* Espaçamento acima do subtítulo */
 }
 
 form {
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 20px; /* Espaçamento abaixo do formulário */
+    text-align: center; /* Centraliza o formulário */
 }
 
 label {
-    color: #ffffff;
-    display: inline-block;
-    width: 100px;
-    text-align: right;
+    color: #ffffff; /* Define a cor do rótulo como branco */
+    display: inline-block; /* Permite definir uma largura fixa */
+    width: 100px; /* Define a largura do rótulo */
+    text-align: right; /* Alinha o texto do rótulo à direita */
 }
 
 input {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Espaçamento abaixo dos campos de entrada */
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    width: 100%; /* Define a tabela para ocupar 100% da largura disponível */
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+    margin-top: 20px; /* Espaçamento acima da tabela */
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid black; /* Define uma borda sólida preta para a tabela e células */
 }
 
 th, td {
-    padding: 10px;
-    text-align: center;
+    padding: 10px; /* Espaçamento interno das células */
+    text-align: center; /* Centraliza o conteúdo nas células */
 }
 
 th {
-    background-color: #ffffff;
+    background-color: #ffffff; /* Define a cor de fundo do cabeçalho da tabela como branco */
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /* Define a cor dos links como preta */
 }
